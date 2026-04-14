@@ -1,0 +1,12 @@
+{
+  "name": "lab1-rest-api",
+  "version": "1.0.0",
+  "description": "REST API для управління студентами — Лабораторна робота №1 (Частина 2)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
