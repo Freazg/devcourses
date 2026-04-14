@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevCourses — IT-платформа</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__icon">&lt;/&gt;</span>
+        <span class="logo__text">DevCourses</span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#home"   class="nav__link">Головна</a></li>
+          <li><a href="#courses" class="nav__link">Курси</a></li>
+          <li><a href="#about"  class="nav__link">Про нас</a></li>
+          <li><a href="#contact" class="nav__link">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Відкрити меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container hero__inner">
+      <div class="hero__text fade-in">
+        <h1 class="hero__title">Навчайся.<br/>Практикуй.<br/>Розвивайся.</h1>
+        <p class="hero__desc">
+          DevCourses — сучасна IT-платформа з курсами для початківців і
+          досвідчених розробників. Обери свій шлях у технологіях.
+        </p>
+        <a href="#courses" class="btn btn--primary">Переглянути курси</a>
+      </div>
+      <div class="hero__visual fade-in fade-in--delay">
+        <div class="code-block">
+          <span class="code-comment">// Почни вчитися сьогодні</span><br/>
+          <span class="code-keyword">const</span> <span class="code-var">skill</span> =
+          <span class="code-string">"JavaScript"</span>;<br/>
+          <span class="code-keyword">const</span> <span class="code-var">level</span> =
+          <span class="code-string">"expert"</span>;<br/>
+          <span class="code-fn">console</span>.<span class="code-fn">log</span>(<span class="code-var">skill</span>,
+          <span class="code-var">level</span>);
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COURSES ===== -->
+  <section class="courses" id="courses">
+    <div class="container">
+      <h2 class="section-title fade-in">Популярні курси</h2>
+      <p class="section-sub fade-in">Оберіть курс і почніть навчання вже сьогодні</p>
+
+      <div class="cards">
+
+        <article class="card fade-in">
+          <div class="card__icon card__icon--html">HTML &amp; CSS</div>
+          <div class="card__body">
+            <span class="card__tag">Початківець</span>
+            <h3 class="card__title">HTML &amp; CSS Основи</h3>
+            <p class="card__desc">
+              Вивчіть семантичну верстку, Flexbox, Grid та адаптивний дизайн
+              з нуля до впевненого рівня.
+            </p>
+            <div class="card__footer">
+              <span class="card__duration">⏱ 40 годин</span>
+              <a href="#" class="btn btn--sm">Деталі</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <div class="card__icon card__icon--js">JS</div>
+          <div class="card__body">
+            <span class="card__tag">Початківець</span>
+            <h3 class="card__title">JavaScript з нуля</h3>
+            <p class="card__desc">
+              Основи мови, DOM-маніпуляції, асинхронність, Promises та
+              сучасний синтаксис ES6+.
+            </p>
+            <div class="card__footer">
+              <span class="card__duration">⏱ 60 годин</span>
+              <a href="#" class="btn btn--sm">Деталі</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <div class="card__icon card__icon--node">Node</div>
+          <div class="card__body">
+            <span class="card__tag">Середній</span>
+            <h3 class="card__title">Node.js &amp; Express</h3>
+            <p class="card__desc">
+              Серверна розробка на Node.js: REST API, Express, робота з базами
+              даних та автентифікація.
+            </p>
+            <div class="card__footer">
+              <span class="card__duration">⏱ 50 годин</span>
+              <a href="#" class="btn btn--sm">Деталі</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <div class="card__icon card__icon--react">React</div>
+          <div class="card__body">
+            <span class="card__tag">Середній</span>
+            <h3 class="card__title">React.js</h3>
+            <p class="card__desc">
+              Компонентна архітектура, хуки, стейт-менеджмент та побудова
+              сучасних SPA-застосунків.
+            </p>
+            <div class="card__footer">
+              <span class="card__duration">⏱ 55 годин</span>
+              <a href="#" class="btn btn--sm">Деталі</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <div class="card__icon card__icon--py">Python</div>
+          <div class="card__body">
+            <span class="card__tag">Початківець</span>
+            <h3 class="card__title">Python для розробників</h3>
+            <p class="card__desc">
+              Вивчіть Python: від основ синтаксису до автоматизації,
+              аналізу даних та веб-розробки.
+            </p>
+            <div class="card__footer">
+              <span class="card__duration">⏱ 45 годин</span>
+              <a href="#" class="btn btn--sm">Деталі</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card fade-in">
+          <div class="card__icon card__icon--git">Git</div>
+          <div class="card__body">
+            <span class="card__tag">Базовий</span>
+            <h3 class="card__title">Git &amp; GitHub</h3>
+            <p class="card__desc">
+              Контроль версій, робота з гілками, pull request-и та
+              командна розробка у GitHub.
+            </p>
+            <div class="card__footer">
+              <span class="card__duration">⏱ 15 годин</span>
+              <a href="#" class="btn btn--sm">Деталі</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container about__inner">
+      <div class="about__text fade-in">
+        <h2 class="section-title">Про платформу</h2>
+        <p>
+          DevCourses — освітня платформа, створена розробниками для
+          розробників. Ми пропонуємо структуровані програми навчання,
+          практичні завдання та підтримку ментора.
+        </p>
+        <ul class="about__list">
+          <li>✅ Більше 20 курсів з різних технологій</li>
+          <li>✅ Практичні проєкти для портфоліо</li>
+          <li>✅ Сертифікати після завершення</li>
+          <li>✅ Спільнота понад 5 000 студентів</li>
+        </ul>
+      </div>
+      <div class="stats fade-in">
+        <div class="stat">
+          <span class="stat__num">20+</span>
+          <span class="stat__label">Курсів</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">5K+</span>
+          <span class="stat__label">Студентів</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">95%</span>
+          <span class="stat__label">Задоволених</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num">24/7</span>
+          <span class="stat__label">Підтримка</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-in">Контакти</h2>
+      <div class="contact__grid fade-in">
+        <div class="contact__item">
+          <span class="contact__icon">📧</span>
+          <span>info@devcourses.ua</span>
+        </div>
+        <div class="contact__item">
+          <span class="contact__icon">📞</span>
+          <span>+380 44 123 45 67</span>
+        </div>
+        <div class="contact__item">
+          <span class="contact__icon">📍</span>
+          <span>Київ, пр. Перемоги 37, КПІ</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">&copy; 2025 DevCourses. Всі права захищено.</p>
+      <ul class="footer__links">
+        <li><a href="#home">Головна</a></li>
+        <li><a href="#courses">Курси</a></li>
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#contact">Контакти</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
